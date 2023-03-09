@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Get In Touch</h2>
+        <form class="form-body" action="index.php">
+            <div class="name">
+                <input type="text" id="first-name" placeholder="First Name">
+                <input type="text" id="last-name" placeholder="Last Name">
+            </div>
+            <div class="email-contact">
+                <input type="email" id="email" placeholder="Email">
+                <input type="tel" id="contact" placeholder="Phone">
+            </div>
+            <div class="address">
+                <input type="text" id="address" placeholder="Address">
+            </div>
+            <div class="message">
+                <input type="text" id="message" placeholder="Type Your Message Here">
+            </div>
+        </form>
+        <div class="g-recaptcha" data-sitekey="6LfhCeokAAAAAP24wJudBeVH3E14aW9QmXn1DNIZ"></div>
+        <button type="submit" class="btn">Submit</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

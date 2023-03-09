@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background: url(background.jpg);
+    font-family: 'Concert One', cursive;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 60%;
+    width: 60%;
+    background-color: #faf1d7;
+    border-radius: 2px;
+}
+.form-body{
+    height: 58%;
+    width: 58%;
+}
+.name,.email-contact,.address,.message{
+    margin: 16px;
+}
+#first-name,#last-name,#email,#contact{
+    width: 46%;
+    padding: 6px;
+    border-radius: 4px;
+    border: none;
+}
+#message,#address{
+    width: 95.5%;
+    padding: 6px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+}
+#first-name,#last-name{
+    background-color: #fde4a6;
+}
+#email,#contact{
+    background-color: #ffde7a;
+}
+#message{
+    background-color:  #ffc107;
+}
+#address{
+    background-color: #f7d36a;
+}
+.btn{
+    margin: 4px;
+    padding: 4px;
+    width: 20%;
+    height: 8%;
+    border-radius: 10px;
+    background-color: #ff9800;
+    border: none;
+    color: #995c00;
+    cursor: pointer;
+    font-family: 'Concert One', cursive;
+}
+
+h2,::placeholder{
+    color: #995c00;
+    font-family: 'Concert One', cursive;
+}
+.btn:hover{
+    background-color: #f7d36a;
+}
